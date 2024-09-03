@@ -1,0 +1,32 @@
+body {
+    color: white;
+    background-color: black;
+    cursor: url('C:/users/escola/desktop/metiflix/resources/gfx/images/cursoriconico.ico');
+}
+
+header {
+    border-bottom: solid 2px greenyellow;
+    padding: 20px;
+    font-size: 32px;
+    color: white;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+    background: darkgreen;
+    margin-bottom: 100px;
+}
+
+.videosfodas{
+    display: flex;   
+    overflow-x: auto; 
+    gap: 10px
+}
+
+.videosfodas img {
+    filter: brightness(50%);
+}
+.videosfodas img:hover {
+    filter: brightness(100%);
+}
